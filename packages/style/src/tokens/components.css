@@ -1,0 +1,15 @@
+:root {
+    --b-button-radius: var(--b-ref-radius-md);
+    --b-button-font-weight: var(--b-font-weight-medium);
+    --b-button-transition: all var(--b-ref-duration-normal) var(--b-ref-ease-in-out);
+
+    /* Primary Button */
+    --b-button-primary-bg: var(--b-color-primary);
+    --b-button-primary-text: var(--b-text-on-primary);
+    --b-button-primary-hover: var(--b-color-primary-hover);
+
+    /* Secondary Button */
+    --b-button-secondary-bg: var(--b-bg-surface);
+    --b-button-secondary-text: var(--b-text-main);
+    --b-button-secondary-border: var(--b-border-color);
+}

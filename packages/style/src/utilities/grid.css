@@ -1,0 +1,43 @@
+.b-grid { display: grid !important; }
+.b-inline-grid { display: inline-grid !important; }
+
+.b-grid-cols-1  { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; }
+.b-grid-cols-2  { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+.b-grid-cols-3  { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+.b-grid-cols-4  { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.b-grid-cols-5  { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+.b-grid-cols-6  { grid-template-columns: repeat(6, minmax(0, 1fr)) !important; }
+.b-grid-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)) !important; }
+
+.b-grid-rows-1 { grid-template-rows: repeat(1, minmax(0, 1fr)) !important; }
+.b-grid-rows-2 { grid-template-rows: repeat(2, minmax(0, 1fr)) !important; }
+
+.b-col-span-1  { grid-column: span 1 / span 1 !important; }
+.b-col-span-2  { grid-column: span 2 / span 2 !important; }
+.b-col-span-3  { grid-column: span 3 / span 3 !important; }
+.b-col-span-4  { grid-column: span 4 / span 4 !important; }
+.b-col-span-6  { grid-column: span 6 / span 6 !important; }
+.b-col-span-12 { grid-column: span 12 / span 12 !important; }
+.b-col-full    { grid-column: 1 / -1 !important; }
+
+.b-row-span-1 { grid-row: span 1 / span 1 !important; }
+.b-row-span-2 { grid-row: span 2 / span 2 !important; }
+
+.b-justify-items-start   { justify-items: start !important; }
+.b-justify-items-end     { justify-items: end !important; }
+.b-justify-items-center  { justify-items: center !important; }
+.b-justify-items-stretch { justify-items: stretch !important; }
+
+.b-align-content-center  { align-content: center !important; }
+.b-align-content-between { align-content: space-between !important; }
+
+.b-place-items-center { place-items: center !important; }
+
+.b-grid-gap-1 { gap: var(--b-ref-space-1) !important; }
+.b-grid-gap-2 { gap: var(--b-ref-space-2) !important; }
+.b-grid-gap-4 { gap: var(--b-ref-space-4) !important; }
+.b-grid-gap-8 { gap: var(--b-ref-space-8) !important; }
+
+.b-grid-cols-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+}

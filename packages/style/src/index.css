@@ -1,5 +1,20 @@
-@import './tokens.css';
-@import './base.css';
-@import './utilities.css';
-@import './light.css';
-@import './dark.css';
+/**
+* @bestiary-ui/style
+*/
+
+/* 1. Tokens */
+@import "./tokens/primitives.css";
+@import "./tokens/semantic.css";
+@import "./tokens/components.css";
+
+/* 2. Base Style */
+@import "./base/reset.css";
+@import "./base/typography.css";
+
+/* 3. Utility Classes */
+@import "./utilities/spacing.css";
+@import "./utilities/flex.css";
+@import "./utilities/grid.css";
+@import "./utilities/text.css";
+@import "./utilities/display.css";
+@import "./utilities/borders.css";

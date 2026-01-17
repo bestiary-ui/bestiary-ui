@@ -1,0 +1,24 @@
+.b-text-left { text-align: left !important; }
+.b-text-center { text-align: center !important; }
+.b-text-right { text-align: right !important; }
+
+.b-text-xs { font-size: var(--b-font-size-xs) !important; }
+.b-text-sm { font-size: var(--b-font-size-sm) !important; }
+.b-text-base { font-size: var(--b-font-size-md) !important; }
+.b-text-lg { font-size: var(--b-font-size-lg) !important; }
+.b-text-xl { font-size: var(--b-font-size-xl) !important; }
+
+.b-font-light { font-weight: var(--b-font-weight-light) !important; }
+.b-font-normal { font-weight: var(--b-font-weight-regular) !important; }
+.b-font-medium { font-weight: var(--b-font-weight-medium) !important; }
+.b-font-bold { font-weight: var(--b-font-weight-bold) !important; }
+
+.b-text-primary { color: var(--b-color-primary) !important; }
+.b-text-main { color: var(--b-text-main) !important; }
+.b-text-muted { color: var(--b-text-muted) !important; }
+.b-text-error { color: var(--b-color-error, #ef4444) !important; }
+.b-text-white { color: var(--b-ref-neutral-0) !important; }
+
+.b-uppercase { text-transform: uppercase !important; }
+.b-lowercase { text-transform: lowercase !important; }
+.b-capitalize { text-transform: capitalize !important; }

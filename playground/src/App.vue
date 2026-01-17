@@ -21,16 +21,13 @@
 <style>
 :root {
     --sidebar-width: 240px;
-    --b-bg-color-alt: #f9fafb;
-    --b-text-color-light: #6b7280;
-    --b-primary-color-light: #eff6ff;
 }
 
 body {
     margin: 0;
     font-family: var(--b-font-family);
-    background-color: var(--b-bg-color);
-    color: var(--b-text-color);
+    background-color: var(--b-bg-base);
+    color: var(--b-text-main);
 }
 
 .app-layout {
@@ -45,7 +42,7 @@ body {
     flex-direction: column;
     position: fixed;
     height: 100vh;
-    background: var(--b-bg-color-alt);
+    background: var(--b-bg-surface);
 }
 
 .logo {
@@ -67,25 +64,25 @@ body {
     padding: 1rem 0.5rem 0.5rem;
     font-size: 0.75rem;
     text-transform: uppercase;
-    color: var(--b-text-color-light);
+    color: var(--b-text-muted);
     letter-spacing: 0.05em;
 }
 
 .nav-item {
     padding: 0.75rem 1rem;
-    color: var(--b-text-color);
+    color: var(--b-text-main);
     text-decoration: none;
     border-radius: 6px;
     transition: background 0.2s;
 }
 
 .nav-item:hover {
-    background: var(--b-primary-color-light);
+    background: var(--b-color-primary-muted);
 }
 
 .nav-item.router-link-active {
     background: var(--b-color-primary);
-    color: white;
+    color: var(--b-text-on-primary);
 }
 
 .main-content {
@@ -106,7 +103,7 @@ body {
 
 .section h3 {
     margin-bottom: 1.5rem;
-    color: var(--b-text-color-light);
+    color: var(--b-text-muted);
 }
 
 .row {
@@ -124,5 +121,5 @@ body {
 .text-primary { color: var(--b-color-primary); }
 .text-success { color: var(--b-color-success); }
 .text-warning { color: var(--b-color-warning); }
-.text-danger { color: var(--b-color-danger); }
+.text-danger { color: var(--b-color-error); }
 </style>

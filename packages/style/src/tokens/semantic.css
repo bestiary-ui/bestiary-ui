@@ -1,0 +1,39 @@
+:root {
+    --b-color-primary: var(--b-ref-green-500);
+    --b-color-primary-hover: var(--b-ref-green-600);
+    --b-color-primary-active: var(--b-ref-green-700);
+    --b-color-primary-muted: var(--b-ref-green-100);
+
+    --b-bg-base: var(--b-ref-neutral-100);
+    --b-bg-surface: var(--b-ref-neutral-0);
+    --b-bg-overlay: rgba(0, 0, 0, 0.5);
+    --b-focus-ring: var(--b-ref-green-300);
+
+    --b-text-main: var(--b-ref-neutral-1000);
+    --b-text-muted: var(--b-ref-neutral-500);
+    --b-text-on-primary: var(--b-ref-neutral-0);
+
+    --b-border-color: var(--b-ref-neutral-200);
+    --b-border-color-focus: var(--b-color-primary);
+
+    --b-color-error: var(--b-ref-red-500);
+    --b-color-warning: var(--b-ref-yellow-500);
+    --b-color-success: var(--b-ref-green-500);
+
+    --b-shadow: var(--b-ref-shadow-sm);
+}
+
+[data-theme='dark'] {
+    --b-color-primary: var(--b-ref-green-500);
+    --b-color-primary-hover: var(--b-ref-green-400);
+
+    --b-bg-base: var(--b-ref-neutral-920);
+    --b-bg-surface: var(--b-ref-neutral-900);
+
+    --b-text-main: var(--b-ref-neutral-0);
+    --b-text-muted: var(--b-ref-neutral-400);
+
+    --b-border-color: var(--b-ref-neutral-700);
+
+    --b-text-on-primary: var(--b-ref-neutral-1000);
+}
