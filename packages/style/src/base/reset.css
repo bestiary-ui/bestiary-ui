@@ -43,6 +43,7 @@ input, button, textarea, select {
     -webkit-appearance: none;
     border: none;
     background: transparent;
+    outline: none;
 }
 
 input, button, textarea, select, a {
@@ -51,6 +52,7 @@ input, button, textarea, select, a {
 
 input::-ms-clear,
 input::-ms-reveal { display: none; }
+
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button,
 input::-webkit-search-results-button,
@@ -62,9 +64,6 @@ textarea {
 
 button {
     cursor: pointer;
-    border: none;
-    background: none;
-    padding: 0;
 }
 
 button:disabled {
@@ -99,6 +98,6 @@ table {
 }
 
 :focus-visible {
-    outline: 2px solid #3b82f6;
+    outline: 2px solid var(--b-focus-ring, var(--b-color-primary));
     outline-offset: 2px;
 }
