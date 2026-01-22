@@ -33,7 +33,7 @@
        FEEDBACK & STATUS
        ========================================== */
     --b-color-success: var(--b-ref-green-500);
-    --b-bg-success-muted: var(--b-ref-green-50);
+    --b-color-success-muted: var(--b-ref-green-50);
 
     --b-color-error: var(--b-ref-red-500);
     --b-color-error-muted: var(--b-ref-red-50);
@@ -48,8 +48,13 @@
        INTEGRATION
        ========================================== */
     --b-color-word: var(--b-ref-office-word-500);
+    --b-color-word-muted: var(--b-ref-office-word-50);
+
     --b-color-powerpoint: var(--b-ref-office-ppt-500);
+    --b-color-powerpoint-muted: var(--b-ref-office-ppt-50);
+
     --b-color-excel: var(--b-ref-office-excel-500);
+    --b-color-excel-muted: var(--b-ref-office-excel-50);
 
     /* ==========================================
        SHADOWS & ELEVATION
@@ -57,8 +62,15 @@
     --b-shadow: var(--b-ref-shadow-sm);
     --b-shadow-card: var(--b-ref-shadow-md);
     --b-shadow-hover: var(--b-ref-shadow-lg);
-}
 
+    /* ==========================================
+      SIZING (Control Dimensions)
+      ========================================== */
+    --b-size-xs: var(--b-ref-control-size-xs); /* 24px */
+    --b-size-sm: var(--b-ref-control-size-sm); /* 32px */
+    --b-size-md: var(--b-ref-control-size-md); /* 40px */
+    --b-size-lg: var(--b-ref-control-size-lg); /* 48px */
+}
 /* ==========================================
    DARK THEME
    ========================================== */
@@ -93,7 +105,7 @@
        FEEDBACK & STATUS
        ========================================== */
     --b-color-success: var(--b-ref-green-400);
-    --b-bg-success-muted: var(--b-ref-green-900);
+    --b-color-success-muted: var(--b-ref-green-900);
 
     --b-color-error: var(--b-ref-red-400);
     --b-color-error-muted: var(--b-ref-red-900);

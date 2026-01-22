@@ -1,17 +1,18 @@
-/* Base */
-@import "./base/reset.css";
-@import "./base/typography.css";
-
-/* Tokens */
+/* 1. TOKENS */
 @import "./tokens/primitives.css";
 @import "./tokens/semantic.css";
 @import "./tokens/components.css";
 
-/* Utilities */
+/* 2. BASE */
+@import "./base/reset.css";
+@import "./base/typography.css";
+
+/* 3. UTILITIES */
+@import "./utilities/sizing.css";
 @import "./utilities/spacing.css";
 @import "./utilities/flex.css";
 @import "./utilities/grid.css";
+@import "./utilities/display.css";
 @import "./utilities/text.css";
 @import "./utilities/backgrounds.css";
-@import "./utilities/display.css";
 @import "./utilities/borders.css";

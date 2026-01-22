@@ -93,7 +93,12 @@
     /* ==========================================
        SIZING
        ========================================== */
-    --b-ref-px: 1px;
+    --b-ref-px:   1px;
+
+    --b-ref-line-none: 0;
+    --b-ref-line-sm:   1px;
+    --b-ref-line-md:   2px;
+    --b-ref-line-lg:   4px;
 
     --b-ref-control-size-xs: 1.5rem;   /* 24px */
     --b-ref-control-size-sm: 2rem;     /* 32px */
@@ -147,6 +152,8 @@
     --b-ref-radius-lg:   0.5rem;    /* 8px */
     --b-ref-radius-xl:   0.75rem;   /* 12px */
     --b-ref-radius-2xl:  1rem;      /* 16px */
+    --b-ref-radius-3xl:  1.5rem;      /* 24px */
+    --b-ref-radius-4xl:  2rem;      /* 32px */
     --b-ref-radius-full: 9999px;    /* Circle */
 
     /* ==========================================

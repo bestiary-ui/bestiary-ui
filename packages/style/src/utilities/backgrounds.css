@@ -1,15 +1,65 @@
-.b-bg-primary {
-    background-color: var(--b-color-primary) !important;
-}
+/* ==========================================
+   BACKGROUNDS
+   ========================================== */
 
-.b-bg-success-muted {
-    background-color: var(--b-bg-success-muted) !important;
-}
+/* Semantic Colors (Structure) */
+.b-bg-base        { background-color: var(--b-bg-base) !important; }
+.b-bg-surface     { background-color: var(--b-bg-surface) !important; }
+.b-bg-overlay     { background-color: var(--b-bg-overlay) !important; }
+.b-bg-transparent { background-color: transparent !important; }
 
-.b-bg-surface {
-    background-color: var(--b-bg-surface) !important;
-}
+/* Brand Colors */
+.b-bg-primary       { background-color: var(--b-color-primary) !important; }
+.b-bg-primary-muted { background-color: var(--b-color-primary-muted) !important; }
 
-.b-bg-base {
-    background-color: var(--b-bg-base) !important;
-}
+/* Status Colors (Solid) */
+.b-bg-success { background-color: var(--b-color-success) !important; }
+.b-bg-error   { background-color: var(--b-color-error) !important; }
+.b-bg-warning { background-color: var(--b-color-warning) !important; }
+.b-bg-info    { background-color: var(--b-color-info) !important; }
+
+/* Status Colors (Muted) */
+.b-bg-success-muted   { background-color: var(--b-color-success-muted) !important; }
+.b-bg-error-muted     { background-color: var(--b-color-error-muted) !important; }
+.b-bg-warning-muted   { background-color: var(--b-color-warning-muted) !important; }
+.b-bg-info-muted      { background-color: var(--b-color-info-muted) !important; }
+
+/* Integrations (Office) */
+.b-bg-word             { background-color: var(--b-color-word) !important; }
+.b-bg-word-muted       { background-color: var(--b-color-word-muted) !important; }
+.b-bg-excel            { background-color: var(--b-color-excel) !important; }
+.b-bg-excel-muted      { background-color: var(--b-color-excel-muted) !important; }
+.b-bg-powerpoint       { background-color: var(--b-color-powerpoint) !important; }
+.b-bg-powerpoint-muted { background-color: var(--b-color-powerpoint-muted) !important; }
+
+/* ==========================================
+   BACKGROUND IMAGE
+   ========================================== */
+
+/* Size */
+.b-bg-auto    { background-size: auto !important; }
+.b-bg-cover   { background-size: cover !important; }
+.b-bg-contain { background-size: contain !important; }
+
+/* Position */
+.b-bg-bottom  { background-position: bottom !important; }
+.b-bg-center  { background-position: center !important; }
+.b-bg-left    { background-position: left !important; }
+.b-bg-right   { background-position: right !important; }
+.b-bg-top     { background-position: top !important; }
+
+/* Repeat */
+.b-bg-repeat    { background-repeat: repeat !important; }
+.b-bg-no-repeat { background-repeat: no-repeat !important; }
+.b-bg-repeat-x  { background-repeat: repeat-x !important; }
+.b-bg-repeat-y  { background-repeat: repeat-y !important; }
+
+/* Attachment */
+.b-bg-fixed  { background-attachment: fixed !important; }
+.b-bg-scroll { background-attachment: scroll !important; }
+
+/* Clip */
+.b-bg-clip-border  { background-clip: border-box !important; }
+.b-bg-clip-padding { background-clip: padding-box !important; }
+.b-bg-clip-content { background-clip: content-box !important; }
+.b-bg-clip-text    { background-clip: text !important; -webkit-background-clip: text !important; }
