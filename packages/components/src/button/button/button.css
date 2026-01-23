@@ -1,0 +1,108 @@
+.b-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--b-ref-space-2);
+
+    border: var(--b-button-border);
+    border-radius: var(--b-button-radius);
+
+    padding: var(--b-button-padding-y) var(--b-button-padding-x);
+
+    font-family: var(--b-button-font-family);
+    font-size: var(--b-button-font-size);
+    line-height: var(--b-button-line-height);
+    font-weight: var(--b-button-font-weight);
+
+    transition: var(--b-button-transition);
+
+    background-color: var(--b-button-bg);
+    color: var(--b-button-color);
+
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.b-button:hover {
+    background-color: var(--b-button-bg-hover);
+    border-color: var(--b-button-border-color);
+}
+
+.b-button svg,
+.b-button [class*="icon"] {
+    flex-shrink: 0;
+    width: 1.25em;
+    height: 1.25em;
+    fill: currentColor;
+}
+
+.b-button:disabled {
+    opacity: var(--b-ref-opacity-muted);
+    cursor: not-allowed;
+}
+
+.b-button--rectangle {
+    border-radius: var(--b-button-radius, var(--b-ref-radius-md));
+    padding: var(--b-ref-space-2) var(--b-ref-space-4);
+}
+
+/*.b-button--square {*/
+/*    height: var(--b-button-h-md);*/
+/*    border-radius: var(--b-button-radius, var(--b-ref-radius-md));*/
+/*    padding: 0 !important; !* Прибираємо падінги, щоб спрацювали розміри *!*/
+/*    aspect-ratio: 1 / 1;    !* Робить кнопку ідеально квадратною *!*/
+/*}*/
+
+/*.b-button--circle {*/
+/*    height: var(--b-button-h-md);*/
+/*    border-radius: var(--b-ref-radius-full) !important;*/
+/*    padding: 0 !important;*/
+/*    aspect-ratio: 1 / 1;*/
+/*}*/
+
+.b-button--type-secondary {
+    --b-button-bg: var(--b-color-secondary);
+    --b-button-bg-hover: var(--b-color-secondary-hover);
+    --b-button-color: var(--b-text-on-secondary);
+}
+
+.b-button--type-secondary:hover {
+    --b-button-border-color: var(--b-focus-ring);
+}
+
+.b-button--type-success {
+    --b-button-bg: var(--b-color-success);
+    --b-button-color: var(--b-color-success-muted);
+}
+
+.b-button--type-warning {
+    --b-button-bg: var(--b-color-warning);
+    --b-button-color: var(--b-color-warning-muted);
+}
+
+.b-button--type-warning:hover {
+    --b-button-bg-hover: var(--b-ref-amber-600);
+}
+
+.b-button--type-danger {
+    --b-button-bg: var(--b-color-error);
+    --b-button-color: var(--b-color-error-muted);
+}
+
+.b-button--type-danger:hover {
+    --b-button-bg-hover: var(--b-ref-red-600);
+}
+
+.b-button--type-info {
+    --b-button-bg: var(--b-color-info);
+    --b-button-color: var(--b-color-info-muted);
+}
+
+.b-button--type-info:hover {
+    --b-button-bg-hover: var(--b-ref-blue-600);
+}
+
+[data-theme='dark'] .b-button--secondary:hover:not(:disabled) {
+    background-color: var(--b-ref-neutral-700);
+}

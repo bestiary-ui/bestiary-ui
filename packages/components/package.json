@@ -12,9 +12,9 @@
             "require": "../bestiary-ui/components/index.cjs"
         },
         "./button": {
-            "types": "../bestiary-ui/components/button/index.d.ts",
-            "import": "../bestiary-ui/components/button/index.js",
-            "require": "../bestiary-ui/components/button/index.cjs"
+            "types": "../bestiary-ui/components/button/button/index.d.ts",
+            "import": "../bestiary-ui/components/button/button/index.js",
+            "require": "../bestiary-ui/components/button/button/index.cjs"
         },
         "./card": {
             "types": "../bestiary-ui/components/card/index.d.ts",
@@ -22,9 +22,14 @@
             "require": "../bestiary-ui/components/card/index.cjs"
         },
         "./badge": {
-            "types": "../bestiary-ui/components/badge/index.d.ts",
-            "import": "../bestiary-ui/components/badge/index.js",
-            "require": "../bestiary-ui/components/badge/index.cjs"
+            "types": "../bestiary-ui/components/misc/badge/index.d.ts",
+            "import": "../bestiary-ui/components/misc/badge/index.js",
+            "require": "../bestiary-ui/components/misc/badge/index.cjs"
+        },
+        "./overlaybadge": {
+            "types": "../bestiary-ui/components/misc/overlaybadge/index.d.ts",
+            "import": "../bestiary-ui/components/misc/overlaybadge/index.js",
+            "require": "../bestiary-ui/components/misc/overlaybadge/index.cjs"
         },
         "./style.css": "../bestiary-ui/components/style.css",
         "./*": "./*"

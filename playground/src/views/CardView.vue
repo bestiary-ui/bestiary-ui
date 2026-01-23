@@ -159,8 +159,8 @@
 </template>
 
 <script setup lang="ts">
-import Card from '@bestiary-ui/components/card'
-import Button from "@bestiary-ui/components/button";
+import Card from '@bestiary-ui/components/panel/card'
+import Button from "@bestiary-ui/components/button/button";
 import {InformationCircleIcon} from "@bestiary-ui/icons/24/solid"
 import {UserIcon} from "@bestiary-ui/icons/24/solid"
 import {CogIcon} from "@bestiary-ui/icons/24/solid"

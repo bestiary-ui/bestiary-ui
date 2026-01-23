@@ -6,10 +6,11 @@
             <h3>Types</h3>
             <div class="row">
                 <Button>Default</Button>
-                <Button type="primary">Primary</Button>
+                <Button type="secondary">Secondary</Button>
                 <Button type="success">Success</Button>
                 <Button type="warning">Warning</Button>
                 <Button type="danger">Danger</Button>
+                <Button type="info">Danger</Button>
             </div>
         </div>
 
@@ -45,6 +46,6 @@
 </template>
 
 <script setup lang="ts">
-import Button from '@bestiary-ui/components/button'
+import Button from '@bestiary-ui/components/button/button'
 import { PlusIcon } from "@bestiary-ui/icons/24/solid";
 </script>

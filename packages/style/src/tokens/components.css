@@ -1,25 +1,41 @@
 :root {
-    /* BUTTON START */
+    /* ==========================================
+       BUTTON
+       ========================================== */
+
+    /* Size */
+    --b-button-sm: var(--b-size-sm);
+    --b-button-md: var(--b-size-md);
+    --b-button-lg: var(--b-size-lg);
+
+    /* Border */
+    --b-button-border: 1px solid var(--b-button-border-color);
     --b-button-radius: var(--b-ref-radius-md);
+
+    /* Padding */
+    --b-button-padding-y: var(--b-ref-space-2);
+    --b-button-padding-x: var(--b-ref-space-3);
+
+    /* Font */
+    --b-button-font-family: var(--b-font-family);
+    --b-button-font-size: var(--b-font-size-md);
+    --b-button-line-height: var(--b-line-height-none);
     --b-button-font-weight: var(--b-font-weight-medium);
+
+    /* Color */
+    --b-button-bg: var(--b-color-primary);
+    --b-button-bg-hover: var(--b-color-primary-hover);
+    --b-button-color: var(--b-text-on-primary);
+    --b-button-color-hover: var(--b-text-on-primary);
+    --b-button-border-color: transparent;
+
+    /* Transition */
     --b-button-transition: all var(--b-ref-duration-normal) var(--b-ref-ease-in-out);
 
-    /* Primary Button */
-    --b-button-primary-bg: var(--b-color-primary);
-    --b-button-primary-text: var(--b-text-on-primary);
-    --b-button-primary-hover: var(--b-color-primary-hover);
+    /* ==========================================
+       CARD
+       ========================================== */
 
-    /* Secondary Button */
-    --b-button-secondary-bg: var(--b-bg-surface);
-    --b-button-secondary-text: var(--b-text-main);
-    --b-button-secondary-border: var(--b-border-color);
-
-    --b-button-h-sm: var(--b-size-sm);
-    --b-button-h-md: var(--b-size-md);
-    --b-button-h-lg: var(--b-size-lg);
-    /* BUTTON END */
-
-    /* CART START */
     /* Base */
     --b-card-radius: var(--b-ref-radius-lg);
     --b-card-title-weight: var(--b-font-weight-bold);
@@ -38,9 +54,10 @@
     /* SM */
     --b-card-padding-sm-x: var(--b-ref-space-4);
     --b-card-padding-sm-y: var(--b-ref-space-4);
-    /* CART END */
 
-    /* BADGE START */
+    /* ==========================================
+       BADGE
+       ========================================== */
     --b-badge-border-radius: var(--b-ref-radius-md);
     --b-badge-border-radius-full: var(--b-ref-radius-full);
     --b-badge-padding: var(--b-ref-space-1) var(--b-ref-space-1);

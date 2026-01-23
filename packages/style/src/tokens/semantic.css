@@ -8,6 +8,10 @@
     --b-color-primary-muted: var(--b-ref-green-100);
     --b-text-on-primary: var(--b-ref-neutral-0);
 
+    --b-color-secondary: var(--b-ref-green-100);
+    --b-color-secondary-hover: var(--b-ref-green-200);
+    --b-text-on-secondary: var(--b-ref-neutral-500);
+
     /* ==========================================
        BACKGROUNDS
        ========================================== */
@@ -32,16 +36,20 @@
     /* ==========================================
        FEEDBACK & STATUS
        ========================================== */
-    --b-color-success: var(--b-ref-green-500);
+    --b-color-success: var(--b-ref-green-400);
+    --b-color-success-hover: var(--b-ref-green-500);
     --b-color-success-muted: var(--b-ref-green-50);
 
-    --b-color-error: var(--b-ref-red-500);
+    --b-color-error: var(--b-ref-red-400);
+    --b-color-error-hover: var(--b-ref-red-500);
     --b-color-error-muted: var(--b-ref-red-50);
 
-    --b-color-warning: var(--b-ref-amber-500);
+    --b-color-warning: var(--b-ref-amber-400);
+    --b-color-warning-hover: var(--b-ref-amber-500);
     --b-color-warning-muted: var(--b-ref-amber-50);
 
-    --b-color-info: var(--b-ref-blue-500);
+    --b-color-info: var(--b-ref-blue-400);
+    --b-color-info-hover: var(--b-ref-blue-500);
     --b-color-info-muted: var(--b-ref-blue-50);
 
     /* ==========================================
