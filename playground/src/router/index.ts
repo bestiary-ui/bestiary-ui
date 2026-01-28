@@ -28,6 +28,16 @@ const router = createRouter({
             path: '/icons',
             name: 'icons',
             component: () => import('../views/IconView.vue')
+        },
+        {
+            path: "/divider",
+            name: "divider",
+            component: () => import('../views/DividerView.vue')
+        },
+        {
+            path: "/splitter",
+            name: "splitter",
+            "component": () => import('../views/SplitterView.vue')
         }
     ]
 })

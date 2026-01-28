@@ -1,7 +1,7 @@
 import {definePropType} from "@bestiary-ui/utils";
 
 export type ButtonType = "secondary" | "success" | "warning" | "danger" | "info";
-export type ButtonSize = "sm" | "lg";
+export type ButtonSize = "small" | "large" | "xlarge";
 export type ButtonShape = "square" | "circle";
 
 export const buttonProps = {

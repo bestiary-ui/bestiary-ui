@@ -3,12 +3,12 @@
         <h2>Badges</h2>
 
         <div class="section">
-            <h4>Form</h4>
+            <h4>shape</h4>
             <div class="b-flex b-gap-1">
                 <Badge>1</Badge>
-                <Badge form="circle" value="2"></Badge>
+                <Badge shape="circle" value="2"></Badge>
                 <Badge>Test 1</Badge>
-                <Badge form="circle" value="Test 2"></Badge>
+                <Badge shape="circle" value="Test 2"></Badge>
             </div>
         </div>
 
@@ -19,7 +19,7 @@
                     <ArrowUpIcon/>
                     Icon
                 </Badge>
-                <Badge form="circle">
+                <Badge shape="circle">
                     <ArrowUpIcon/>
                     Icon
                 </Badge>
@@ -33,10 +33,10 @@
                 <Badge value="1"></Badge>
                 <Badge value="1" size="large"></Badge>
                 <Badge value="1" size="xlarge"></Badge>
-                <Badge value="1" size="small" form="circle"></Badge>
-                <Badge value="1" form="circle"></Badge>
-                <Badge value="1" size="large" form="circle"></Badge>
-                <Badge value="1" size="xlarge" form="circle"></Badge>
+                <Badge value="1" size="small" shape="circle"></Badge>
+                <Badge value="1" shape="circle"></Badge>
+                <Badge value="1" size="large" shape="circle"></Badge>
+                <Badge value="1" size="xlarge" shape="circle"></Badge>
             </div>
         </div>
 
@@ -56,14 +56,14 @@
         <div class="section">
             <h4>Overlay</h4>
             <div class="b-flex b-gap-4">
-                <OverlayBadge value="5" type="danger" form="circle" size="small">
+                <OverlayBadge value="5" type="danger" shape="circle" size="small">
                     <BellIcon size="24" color="#3498db"/>
                 </OverlayBadge>
                 <OverlayBadge type="danger">
                     <EnvelopeIcon size="24" color="green"/>
                 </OverlayBadge>
 
-                <OverlayBadge value="5" type="danger" form="circle">
+                <OverlayBadge value="5" type="danger" shape="circle">
                     <BellIcon size="lg" />
                 </OverlayBadge>
 
@@ -75,7 +75,7 @@
                 </OverlayBadge>
 
                 <!-- Сценарій 3: Статус користувача (Просто кругла цятка) -->
-                <OverlayBadge type="success" form="circle">
+                <OverlayBadge type="success" shape="circle">
                     <div class="b-w-10 b-h-10 b-bg-surface b-border b-rounded-full b-flex b-items-center b-justify-center">
                         <UserIcon />
                     </div>

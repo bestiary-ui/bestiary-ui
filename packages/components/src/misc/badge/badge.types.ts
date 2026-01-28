@@ -3,7 +3,7 @@ import {PropType} from "vue";
 
 export type BadgeType = "secondary" | "info" | "success" | "warn" | "danger" | "contrast";
 export type BadgeSize = "small" | "large" | "xlarge";
-export type BadgeForm = "circle";
+export type BadgeShape = "circle";
 
 export const badgeProps = {
     value: {
@@ -15,7 +15,7 @@ export const badgeProps = {
     size: {
         type: definePropType<BadgeSize>(String),
     },
-    form: {
-        type: definePropType<BadgeForm>(String),
+    shape: {
+        type: definePropType<BadgeShape>(String),
     }
 } as const;

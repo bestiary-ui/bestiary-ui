@@ -10,16 +10,17 @@
                 <Button type="success">Success</Button>
                 <Button type="warning">Warning</Button>
                 <Button type="danger">Danger</Button>
-                <Button type="info">Danger</Button>
+                <Button type="info">Info</Button>
             </div>
         </div>
 
         <div class="section">
             <h3>Sizes</h3>
             <div class="row">
-                <Button size="sm">Small</Button>
-                <Button size="md">Medium</Button>
-                <Button size="lg">Large</Button>
+                <Button size="small">Small</Button>
+                <Button>Standard</Button>
+                <Button size="large">Large</Button>
+                <Button size="xlarge">Extra large</Button>
             </div>
         </div>
 
@@ -27,17 +28,20 @@
             <h3>States</h3>
             <div class="row">
                 <Button disabled>Disabled</Button>
-                <Button type="primary" disabled>Disabled Primary</Button>
             </div>
         </div>
 
         <div class="section">
             <h3>With Icon</h3>
             <div class="row">
-                <Button><PlusIcon/>Left</Button>
-                <Button>Right<PlusIcon/></Button>
-                <Button size="sm"><PlusIcon/></Button>
-                <Button><PlusIcon/></Button>
+                <Button size="small"><PlusIcon/>Left</Button>
+                <Button size="small">Right<PlusIcon/></Button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Shape</h3>
+            <div class="row">
                 <Button shape="square"><PlusIcon/></Button>
                 <Button shape="circle"><PlusIcon/></Button>
             </div>

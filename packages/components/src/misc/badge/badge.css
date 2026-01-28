@@ -22,7 +22,7 @@
     color: var(--b-badge-color);
 }
 
-.b-badge--form-circle {
+.b-badge--shape-circle {
     border-radius: var(--b-badge-border-radius-full);
 }
 

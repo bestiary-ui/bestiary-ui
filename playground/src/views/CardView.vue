@@ -17,28 +17,24 @@
                 </Card>
                 <Card type="info" size="sm" shadow="never">
                     <div class="b-flex b-items-center b-gap-3">
-                        <!-- Приклад іконки з твого пакету @bestiary-ui/icons -->
                         <InformationCircleIcon class="b-text-primary" />
                         <span class="b-text-sm">Ваш підписка закінчується через 3 дні.</span>
                     </div>
                 </Card>
 
                 <Card style="width: 300px;" shadow="always">
-                    <!-- Верхня частина: Іконка та бейдж -->
                     <div class="b-flex b-justify-between b-items-start b-mb-4">
 
-                        <!-- Контейнер для іконки (синій бокс) -->
                         <div class="b-flex b-items-center b-justify-center b-rounded-lg b-bg-primary b-text-white b-p-3" style="width: 56px; height: 56px;">
                             <UsersIcon size="lg" />
                         </div>
 
-                        <div class="b-flex b-items-center b-gap-1 b-px-3 b-py-1 b-rounded-full b-bg-success-muted b-text-success b-text-xs b-font-bold">
+                        <BBadge type="success" shape="circle" size="large">
                             <ArrowTrendingUpIcon size="sm" />
                             +12.5%
-                        </div>
+                        </BBadge>
                     </div>
 
-                    <!-- Нижня частина: Текст та число -->
                     <div class="b-flex b-flex-col">
                         <span class="b-text-muted b-font-medium b-mb-1">Total Students</span>
                         <span class="b-text-3xl b-font-bold b-text-main">1,284</span>
@@ -166,6 +162,7 @@ import {UserIcon} from "@bestiary-ui/icons/24/solid"
 import {CogIcon} from "@bestiary-ui/icons/24/solid"
 import {UsersIcon} from "@bestiary-ui/icons/24/solid";
 import {ArrowTrendingUpIcon} from "@bestiary-ui/icons/24/solid";
+import BBadge from "@bestiary-ui/components/misc/badge";
 </script>
 
 <style scoped>

@@ -20,7 +20,7 @@ const classes = computed(() => {
         {
             [`b-badge--type-${props.type}`]: props.type,
             [`b-badge--size-${props.size}`]: props.size,
-            [`b-badge--form-${props.form}`]: props.form,
+            [`b-badge--shape-${props.shape}`]: props.shape,
         }
     ];
 });

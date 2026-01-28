@@ -4,10 +4,12 @@
     justify-content: center;
     gap: var(--b-ref-space-2);
 
+    height: var(--b-button-height);
+    min-width: var(--b-button-height);
+    padding: 0 var(--b-button-padding-x);
+
     border: var(--b-button-border);
     border-radius: var(--b-button-radius);
-
-    padding: var(--b-button-padding-y) var(--b-button-padding-x);
 
     font-family: var(--b-button-font-family);
     font-size: var(--b-button-font-size);
@@ -42,24 +44,31 @@
     cursor: not-allowed;
 }
 
-.b-button--rectangle {
-    border-radius: var(--b-button-radius, var(--b-ref-radius-md));
-    padding: var(--b-ref-space-2) var(--b-ref-space-4);
+.b-button--size-small {
+    --b-button-height: var(--b-size-xs);
+    --b-button-padding-x: var(--b-ref-space-2);
+    --b-button-font-weight: var(--b-font-weight-regular);
 }
 
-/*.b-button--square {*/
-/*    height: var(--b-button-h-md);*/
-/*    border-radius: var(--b-button-radius, var(--b-ref-radius-md));*/
-/*    padding: 0 !important; !* Прибираємо падінги, щоб спрацювали розміри *!*/
-/*    aspect-ratio: 1 / 1;    !* Робить кнопку ідеально квадратною *!*/
-/*}*/
+.b-button--size-large {
+    --b-button-height: var(--b-size-md);
+    --b-button-padding-x: var(--b-ref-space-4);
+}
 
-/*.b-button--circle {*/
-/*    height: var(--b-button-h-md);*/
-/*    border-radius: var(--b-ref-radius-full) !important;*/
-/*    padding: 0 !important;*/
-/*    aspect-ratio: 1 / 1;*/
-/*}*/
+.b-button--size-xlarge {
+    --b-button-height: var(--b-size-lg);
+    --b-button-padding-x: var(--b-ref-space-6);
+    --b-button-font-size: var(--b-font-size-lg);
+}
+
+.b-button--shape-circle {
+    border-radius: var(--b-ref-radius-full) !important;
+}
+
+.b-button--shape-square,
+.b-button--shape-circle {
+    padding: 0;
+}
 
 .b-button--type-secondary {
     --b-button-bg: var(--b-color-secondary);
@@ -101,8 +110,4 @@
 
 .b-button--type-info:hover {
     --b-button-bg-hover: var(--b-ref-blue-600);
-}
-
-[data-theme='dark'] .b-button--secondary:hover:not(:disabled) {
-    background-color: var(--b-ref-neutral-700);
 }

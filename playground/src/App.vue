@@ -1,3 +1,5 @@
+<script setup lang="ts">
+</script>
 <template>
     <div class="app-layout">
         <aside class="sidebar">
@@ -6,8 +8,11 @@
                 <router-link to="/" class="nav-item">Home</router-link>
                 <div class="nav-group">Components</div>
                 <router-link to="/buttons" class="nav-item">Buttons</router-link>
-                <router-link to="/cards" class="nav-item">Cards</router-link>
                 <router-link to="/badges" class="nav-item">Badges</router-link>
+                <div class="nav-group">Panel</div>
+                <router-link to="/cards" class="nav-item">Cards</router-link>
+                <router-link to="/divider" class="nav-item">Divider</router-link>
+                <router-link to="/splitter" class="nav-item">Splitter</router-link>
                 <div class="nav-group">Icons</div>
                 <router-link to="/icons" class="nav-item">Icons</router-link>
             </nav>

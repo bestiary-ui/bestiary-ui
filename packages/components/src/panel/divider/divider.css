@@ -1,0 +1,70 @@
+.b-divider {
+    display: flex;
+    position: relative;
+    justify-content: var(--b-divider-justify-content);
+    align-items: var(--b-divider-align-items);
+}
+
+.b-divider:before {
+    position: absolute;
+    display: block;
+    content: "";
+    border: 0;
+    border-color: var(--b-divider-border-color);
+    border-style: var(--b-divider-border-style);
+}
+
+.b-divider__content {
+    z-index: 1;
+    background-color: var(--b-divider-content-background);
+    color: var(--b-divider-content-color);
+}
+
+.b-divider--layout-horizontal {
+    width: 100%;
+    margin: var(--b-divider-horizontal-margin);
+}
+
+.b-divider--layout-horizontal:before {
+    inset-block-start: 50%;
+    inset-inline-start: 0;
+    width: 100%;
+    border-block-start-width: 1px;
+    transform: translateY(-50%);
+}
+
+.b-divider--layout-horizontal .b-divider__content {
+    padding: 0 var(--b-ref-space-2);
+}
+
+.b-divider--layout-vertical {
+    display: inline-flex;
+    min-height: 1rem;
+    height: auto;
+    align-self: stretch;
+    margin: var(--b-divider-vertical-margin);
+}
+
+.b-divider--layout-vertical:before {
+    inset-inline-start: 50%;
+    inset-block-start: 0;
+    height: 100%;
+    border-inline-start-width: 1px;
+    transform: translateX(-50%);
+}
+
+.b-divider--layout-vertical .b-divider__content {
+    padding: var(--b-ref-space-2) 0;
+}
+
+.b-divider--layout-horizontal.b-divider--align-left   { --b-divider-justify-content: flex-start; }
+.b-divider--layout-horizontal.b-divider--align-center { --b-divider-justify-content: center; }
+.b-divider--layout-horizontal.b-divider--align-right  { --b-divider-justify-content: flex-end; }
+
+.b-divider--layout-vertical.b-divider--align-top     { --b-divider-align-items: flex-start; }
+.b-divider--layout-vertical.b-divider--align-center  { --b-divider-align-items: center; }
+.b-divider--layout-vertical.b-divider--align-bottom  { --b-divider-align-items: flex-end; }
+
+.b-divider--type-solid:before  { --b-divider-border-style: solid; }
+.b-divider--type-dotted:before { --b-divider-border-style: dotted; }
+.b-divider--type-dashed:before { --b-divider-border-style: dashed; }
